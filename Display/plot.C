@@ -40,7 +40,7 @@ void plot(bool isdata=false)
    gStyle->SetFrameFillColor(0);
    gStyle->SetOptTitle(0);
 
-  const TString l1_input = Form("../Input/MC/CalibrationEtsum_%s.root",option.Data());
+  const TString l1_input = Form("../Analysis/Results/CalibrationEtsum_%s.root",option.Data());
   //const TString l1_input = Form("../Input/Data/CalibrationEtsum_%s.root",option.Data());
   TFile *lFile = TFile::Open(l1_input);
   TH2D *hcorrOfflineEtsumVsL1Etsum = (TH2D*)lFile->Get("hcorrOfflineEtsumVsL1Etsum");
