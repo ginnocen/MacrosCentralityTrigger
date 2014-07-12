@@ -7,3 +7,5 @@ In this repository, you can find the macros used in the centrality trigger studi
  matching_l12forest_Centrality.C and matching_l12forest_Centrality_MC.C produce turnon curves histograms 
  and correlation plots.
 * In the display folder you can find the code needed to produce final plots.
+
+The input files needed to run the matching macros are store in svmithi02.cern.ch. 
