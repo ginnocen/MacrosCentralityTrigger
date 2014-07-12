@@ -1,4 +1,4 @@
-# Instructions MacrosCentralityTrigger
+** Instructions MacrosCentralityTrigger**
 
 In this repository, you can find the macros used in the centrality trigger studies.
 
